@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FinalYearProject_vc12", "FinalYearProject_vc12.vcxproj", "{69F3C6AB-9750-73C8-2C78-EB8284C96728}"
+
+EndProject
+Global
+    GlobalSection(ExtensibilityGlobals) = postSolution
+    EndGlobalSection
+    GlobalSection(ExtensibilityAddIns) = postSolution
+    EndGlobalSection
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        x86 Debug|Win32 = x86 Debug|Win32
+        x86 Release|Win32 = x86 Release|Win32
+        GCC ARM Debug|Win32 = GCC ARM Debug|Win32
+        GCC ARM Release|Win32 = GCC ARM Release|Win32
+        RVCT ARM Debug|Win32 = RVCT ARM Debug|Win32
+        RVCT ARM Release|Win32 = RVCT ARM Release|Win32
+        GCC MIPS Debug|Win32 = GCC MIPS Debug|Win32
+        GCC MIPS Release|Win32 = GCC MIPS Release|Win32
+        GCC X86 ANDROID Debug|Win32 = GCC X86 ANDROID Debug|Win32
+        GCC X86 ANDROID Release|Win32 = GCC X86 ANDROID Release|Win32
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.x86 Debug|Win32.ActiveCfg = x86 Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.x86 Debug|Win32.Build.0 = x86 Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.x86 Release|Win32.ActiveCfg = x86 Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.x86 Release|Win32.Build.0 = x86 Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC ARM Debug|Win32.ActiveCfg = GCC ARM Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC ARM Debug|Win32.Build.0 = GCC ARM Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC ARM Release|Win32.ActiveCfg = GCC ARM Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC ARM Release|Win32.Build.0 = GCC ARM Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.RVCT ARM Debug|Win32.ActiveCfg = RVCT ARM Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.RVCT ARM Debug|Win32.Build.0 = RVCT ARM Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.RVCT ARM Release|Win32.ActiveCfg = RVCT ARM Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.RVCT ARM Release|Win32.Build.0 = RVCT ARM Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC MIPS Debug|Win32.ActiveCfg = GCC MIPS Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC MIPS Debug|Win32.Build.0 = GCC MIPS Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC MIPS Release|Win32.ActiveCfg = GCC MIPS Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC MIPS Release|Win32.Build.0 = GCC MIPS Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 ANDROID Debug|Win32.ActiveCfg = GCC X86 ANDROID Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 ANDROID Debug|Win32.Build.0 = GCC X86 ANDROID Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 ANDROID Release|Win32.ActiveCfg = GCC X86 ANDROID Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 ANDROID Release|Win32.Build.0 = GCC X86 ANDROID Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 TIZEN Debug|Win32.ActiveCfg = GCC X86 TIZEN Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 TIZEN Debug|Win32.Build.0 = GCC X86 TIZEN Debug|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 TIZEN Release|Win32.ActiveCfg = GCC X86 TIZEN Release|Win32
+        {69F3C6AB-9750-73C8-2C78-EB8284C96728}.GCC X86 TIZEN Release|Win32.Build.0 = GCC X86 TIZEN Release|Win32
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal

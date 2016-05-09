@@ -1,0 +1,2 @@
+^C:\USERS\LAB422\DESKTOP\FYP\FINALYEARPROJECT\FINALYEARPROJECT.MKB
+"C:\Marmalade\7.4\s3e\python\python.exe" "C:\Marmalade\7.4\s3e\makefile_builder\mkb.py" "c:/Users/lab422/Desktop/FYP/FinalYearProject/FinalYearProject.mkb" "--default-buildenv=vc12" --msvc-project

@@ -1,0 +1,89 @@
+#!/usr/bin/env mkb
+
+subprojects
+{
+    iwutil
+    iw2dscenegraphcore
+    iw2dscenegraph
+	SoundEngine
+	Box2d
+	curl
+    iwgx
+    iwresmanager
+    iwtween
+}
+
+files
+{
+    [source]
+    (source)
+    audio.cpp
+	Bullet.cpp
+	BulletManager.cpp
+	FinalYearProject.cpp
+	Game.cpp
+	HUD.cpp
+	input.cpp
+	MainMenu.cpp	
+	Menu.cpp
+	Map.cpp
+	Net.cpp
+	PacketStream.cpp
+	Platform.cpp
+	Player.cpp
+	resources.cpp
+	scene.cpp
+	Target.cpp
+	Weapon.cpp
+	NetworkManager.cpp
+	PlayerManager.cpp
+	CurlHelper.cpp
+	ObjectFactory.cpp
+	ContactListener.cpp
+	CollisionIdentifier.cpp
+	Grenade.cpp
+	GameLobbyMenu.cpp
+	PickUp.cpp
+	Scoreboard.cpp
+
+	audio.h
+	Bullet.h
+	BulletManager.h
+	Game.h
+	HUD.h
+	input.h
+	MainMenu.h	
+	Menu.h
+	Map.h
+	Net.h
+	PacketStream.h
+	Platform.h
+	Player.h
+	resources.h
+	scene.h
+	Target.h
+	Weapon.h
+	NetworkManager.h
+	PlayerManager.h
+	CurlHelper.h
+	ObjectFactory.h
+	ContactListener.h
+	CollisionIdentifier.h
+	Grenade.h
+	GameLobbyMenu.h
+	PickUp.h
+	Scoreboard.h
+}
+
+assets
+{
+    (data)
+    audio
+    texture
+	fonts
+}
+
+
+deployment
+{
+}

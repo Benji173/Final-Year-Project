@@ -1,0 +1,120 @@
+﻿Build started 22/04/2015 22:18:31.
+     1>Project "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\FinalYearProject_vc11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/iw2dscenegraphcore/h /Ic:/marmalade/7.4/modules/iw2dscenegraph/h /Ic:/marmalade/7.4/modules/iw2d/h /Ic:/marmalade/7.4/modules/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwresmanager/h /Ic:/marmalade/7.4/extensions/pvrtextool/h /Ic:/marmalade/7.4/modules/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /Ic:/users/ben/desktop/fyp/finalyearproject/soundengine/h /Ic:/users/ben/desktop/fyp/finalyearproject/soundengine/source /Ic:/users/ben/desktop/fyp/finalyearproject/box2d /Ic:/marmalade/7.4/modules/third_party/curl/source /Ic:/marmalade/7.4/modules/third_party/curl/include /Ic:/marmalade/7.4/modules/third_party/openssl /Ic:/marmalade/7.4/modules/third_party/openssl/openssl /Ic:/marmalade/7.4/modules/iwtween/h /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /Ic:/marmalade/7.4/s3e/h/ext_legacy /Ic:/marmalade/7.4/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_FinalYearProject_vc11_x86\\" /Fd"Debug_FinalYearProject_vc11_x86\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\temp_defines_debug.h" ..\source\Player.cpp
+         Player.cpp
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\objectfactory.h(25): warning C4091: 'static ' : ignored on left of 'ObjectFactory' when no variable is declared
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.h(59): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.h(69): warning C4244: 'argument' : conversion from 'int' to 'float32', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(16): warning C4244: '=' : conversion from 'uint64' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(198): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(207): warning C4244: 'initializing' : conversion from 'uint64' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(335): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(346): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ben\desktop\fyp\finalyearproject\source\player.cpp(363): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_FinalYearProject_vc11_x86\FinalYearProject.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.4/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgx/atitools /LIBPATH:c:/marmalade/7.4/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgxfont/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/tiniconv/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/openssl/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/curl/lib/x86 /LIBPATH:c:/marmalade/7.4/s3e/lib/x86 vc6_compat.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iw2d_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgeom_d.lib iwresmanager_d.lib iwgxfont_d.lib tiniconv_d.lib openssl_d.lib curl_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_FinalYearProject_vc11_x86\FinalYearProject.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_FinalYearProject_vc11_x86\FinalYearProject.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /DLL Debug_FinalYearProject_vc11_x86\Bullet.obj
+         Debug_FinalYearProject_vc11_x86\BulletManager.obj
+         Debug_FinalYearProject_vc11_x86\CollisionIdentifier.obj
+         Debug_FinalYearProject_vc11_x86\ContactListener.obj
+         Debug_FinalYearProject_vc11_x86\CurlHelper.obj
+         Debug_FinalYearProject_vc11_x86\FinalYearProject.obj
+         Debug_FinalYearProject_vc11_x86\Game.obj
+         Debug_FinalYearProject_vc11_x86\GameLobbyMenu.obj
+         Debug_FinalYearProject_vc11_x86\Grenade.obj
+         Debug_FinalYearProject_vc11_x86\HUD.obj
+         Debug_FinalYearProject_vc11_x86\Iw2DSceneGraph.obj
+         Debug_FinalYearProject_vc11_x86\Iw2DSceneGraphCore.obj
+         Debug_FinalYearProject_vc11_x86\IwResHandlerWAV.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundADPCM.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundData.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundGroup.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundInst.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundManager.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundPCM.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundParams.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundSpec.obj
+         Debug_FinalYearProject_vc11_x86\IwSoundWAV.obj
+         Debug_FinalYearProject_vc11_x86\IwTween.obj
+         Debug_FinalYearProject_vc11_x86\MainMenu.obj
+         Debug_FinalYearProject_vc11_x86\Map.obj
+         Debug_FinalYearProject_vc11_x86\Menu.obj
+         Debug_FinalYearProject_vc11_x86\Net.obj
+         Debug_FinalYearProject_vc11_x86\NetworkManager.obj
+         Debug_FinalYearProject_vc11_x86\ObjectFactory.obj
+         Debug_FinalYearProject_vc11_x86\PVRTexTool_interface.obj
+         Debug_FinalYearProject_vc11_x86\PacketStream.obj
+         Debug_FinalYearProject_vc11_x86\PickUp.obj
+         Debug_FinalYearProject_vc11_x86\Platform.obj
+         Debug_FinalYearProject_vc11_x86\Player.obj
+         Debug_FinalYearProject_vc11_x86\PlayerManager.obj
+         Debug_FinalYearProject_vc11_x86\Target.obj
+         Debug_FinalYearProject_vc11_x86\Weapon.obj
+         Debug_FinalYearProject_vc11_x86\audio.obj
+         Debug_FinalYearProject_vc11_x86\b2BlockAllocator.obj
+         Debug_FinalYearProject_vc11_x86\b2Body.obj
+         Debug_FinalYearProject_vc11_x86\b2BroadPhase.obj
+         Debug_FinalYearProject_vc11_x86\b2ChainAndCircleContact.obj
+         Debug_FinalYearProject_vc11_x86\b2ChainAndPolygonContact.obj
+         Debug_FinalYearProject_vc11_x86\b2ChainShape.obj
+         Debug_FinalYearProject_vc11_x86\b2CircleContact.obj
+         Debug_FinalYearProject_vc11_x86\b2CircleShape.obj
+         Debug_FinalYearProject_vc11_x86\b2CollideCircle.obj
+         Debug_FinalYearProject_vc11_x86\b2CollideEdge.obj
+         Debug_FinalYearProject_vc11_x86\b2CollidePolygon.obj
+         Debug_FinalYearProject_vc11_x86\b2Collision.obj
+         Debug_FinalYearProject_vc11_x86\b2Contact.obj
+         Debug_FinalYearProject_vc11_x86\b2ContactManager.obj
+         Debug_FinalYearProject_vc11_x86\b2ContactSolver.obj
+         Debug_FinalYearProject_vc11_x86\b2Distance.obj
+         Debug_FinalYearProject_vc11_x86\b2DistanceJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2Draw.obj
+         Debug_FinalYearProject_vc11_x86\b2DynamicTree.obj
+         Debug_FinalYearProject_vc11_x86\b2EdgeAndCircleContact.obj
+         Debug_FinalYearProject_vc11_x86\b2EdgeAndPolygonContact.obj
+         Debug_FinalYearProject_vc11_x86\b2EdgeShape.obj
+         Debug_FinalYearProject_vc11_x86\b2Fixture.obj
+         Debug_FinalYearProject_vc11_x86\b2FrictionJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2GearJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2Island.obj
+         Debug_FinalYearProject_vc11_x86\b2Joint.obj
+         Debug_FinalYearProject_vc11_x86\b2Math.obj
+         Debug_FinalYearProject_vc11_x86\b2MotorJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2MouseJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2PolygonAndCircleContact.obj
+         Debug_FinalYearProject_vc11_x86\b2PolygonContact.obj
+         Debug_FinalYearProject_vc11_x86\b2PolygonShape.obj
+         Debug_FinalYearProject_vc11_x86\b2PrismaticJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2PulleyJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2RevoluteJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2Rope.obj
+         Debug_FinalYearProject_vc11_x86\b2RopeJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2Settings.obj
+         Debug_FinalYearProject_vc11_x86\b2StackAllocator.obj
+         Debug_FinalYearProject_vc11_x86\b2TimeOfImpact.obj
+         Debug_FinalYearProject_vc11_x86\b2Timer.obj
+         Debug_FinalYearProject_vc11_x86\b2WeldJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2WheelJoint.obj
+         Debug_FinalYearProject_vc11_x86\b2World.obj
+         Debug_FinalYearProject_vc11_x86\b2WorldCallbacks.obj
+         Debug_FinalYearProject_vc11_x86\input.obj
+         Debug_FinalYearProject_vc11_x86\resources.obj
+         Debug_FinalYearProject_vc11_x86\scene.obj
+         FinalYearProject_vc11.vcxproj -> c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86
+       PostBuildEvent:
+         echo C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86"
+         chdir /d "c:\marmalade\7.4\s3e\tools"
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86"
+         echo "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86" 
+         chdir /d "c:\marmalade\7.4\s3e\bin"
+         "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86" 
+         
+         :VCEnd
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86"
+         "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\Debug_FinalYearProject_vc11_x86\FinalYearProject.s86" 
+     1>Done Building Project "c:\Users\Ben\Desktop\FYP\FinalYearProject\build_finalyearproject_vc11\FinalYearProject_vc11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.98

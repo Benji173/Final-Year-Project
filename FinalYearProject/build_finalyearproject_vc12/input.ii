@@ -1,0 +1,466 @@
+# 1 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+# 1 "c:\\Users\\Ben\\Desktop\\FYP\\FinalYearProject\\build_finalyearproject_vc12//"
+# 1 "<command-line>"
+# 1 "c:/Users/Ben/Desktop/FYP/FinalYearProject/build_finalyearproject_vc12/temp_defines_debug.h" 1
+# 1 "<command-line>" 2
+# 1 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+# 13 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+# 1 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/Input.h" 1
+# 16 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/Input.h"
+# 1 "c:/marmalade/7.4/s3e/h/s3ePointer.h" 1
+# 15 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+# 1 "c:/marmalade/7.4/s3e/h/s3eTypes.h" 1
+# 35 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef unsigned char s3e_uint8_t;
+typedef signed char s3e_int8_t;
+typedef unsigned short int s3e_uint16_t;
+typedef signed short int s3e_int16_t;
+typedef unsigned int s3e_uint32_t;
+typedef signed int s3e_int32_t;
+# 49 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+  typedef signed long long s3e_int64_t;
+  typedef unsigned long long s3e_uint64_t;
+# 62 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef s3e_uint64_t uint64_t;
+typedef s3e_int64_t int64_t;
+typedef s3e_uint32_t uint32_t;
+typedef s3e_int32_t int32_t;
+typedef s3e_uint16_t uint16_t;
+typedef s3e_int16_t int16_t;
+typedef s3e_uint8_t uint8_t;
+typedef s3e_int8_t int8_t;
+# 84 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+# 96 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef unsigned int uint;
+typedef unsigned short int ushort;
+typedef unsigned long int ulong;
+typedef unsigned char uint8;
+typedef signed char int8;
+
+
+typedef int64_t int64;
+typedef uint64_t uint64;
+
+
+
+
+typedef unsigned int uint32;
+
+
+
+
+
+
+typedef signed int int32;
+
+
+
+
+
+
+typedef uint16_t uint16;
+
+
+
+
+typedef int16_t int16;
+# 207 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef enum s3eResult
+{
+    S3E_RESULT_SUCCESS = 0,
+    S3E_RESULT_ERROR = 1
+} s3eResult;
+
+
+
+
+typedef uint8 s3eBool;
+# 225 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef wchar_t s3eWChar;
+# 237 "c:/marmalade/7.4/s3e/h/s3eTypes.h"
+typedef int32 (*s3eCallback) (void* systemData, void* userData);
+# 16 "c:/marmalade/7.4/s3e/h/s3ePointer.h" 2
+# 55 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+typedef enum s3ePointerType
+{
+    S3E_POINTER_TYPE_INVALID = 0,
+    S3E_POINTER_TYPE_MOUSE = 1,
+    S3E_POINTER_TYPE_STYLUS = 2
+} s3ePointerType;
+
+
+
+
+
+
+
+typedef enum s3eStylusType
+{
+    S3E_STYLUS_TYPE_INVALID = 0,
+    S3E_STYLUS_TYPE_STYLUS = 1,
+    S3E_STYLUS_TYPE_FINGER = 2
+} s3eStylusType;
+# 86 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+typedef enum s3ePointerProperty
+{
+
+
+
+    S3E_POINTER_AVAILABLE = 0,
+
+
+
+
+
+
+    S3E_POINTER_HIDE_CURSOR = 1,
+
+
+
+
+    S3E_POINTER_TYPE = 2,
+
+
+
+
+    S3E_POINTER_STYLUS_TYPE = 3,
+
+
+
+
+    S3E_POINTER_MULTI_TOUCH_AVAILABLE = 4,
+
+
+
+
+
+
+
+    S3E_POINTER_VIRTUAL_TRANSFORM = 5,
+
+
+
+
+    S3E_POINTER_VIRTUAL_ROTATION = 6,
+
+
+
+
+    S3E_POINTER_VIRTUAL_LEFT = 7,
+
+
+
+
+    S3E_POINTER_VIRTUAL_TOP = 8,
+
+
+
+
+    S3E_POINTER_VIRTUAL_WIDTH = 9,
+
+
+
+
+    S3E_POINTER_VIRTUAL_HEIGHT = 10,
+
+
+
+
+
+    S3E_POINTER_VIRTUAL_SCALE_X = 11,
+
+
+
+
+
+    S3E_POINTER_VIRTUAL_SCALE_Y = 12
+
+} s3ePointerProperty;
+# 174 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" int32 s3ePointerGetInt(s3ePointerProperty property);
+# 191 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" s3eResult s3ePointerSetInt(s3ePointerProperty property, int32 value);
+# 200 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+typedef enum s3ePointerCallback
+{
+# 213 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+    S3E_POINTER_BUTTON_EVENT,
+# 226 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+    S3E_POINTER_MOTION_EVENT,
+# 237 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+    S3E_POINTER_TOUCH_EVENT,
+# 248 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+    S3E_POINTER_TOUCH_MOTION_EVENT,
+# 263 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+    S3E_POINTER_WHEEL_CHANGED_EVENT,
+
+    S3E_POINTER_CALLBACK_MAX
+} s3ePointerCallback;
+# 288 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" s3eResult s3ePointerRegister(s3ePointerCallback cbid, s3eCallback fn, void* userData);
+# 305 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" s3eResult s3ePointerUnRegister(s3ePointerCallback cbid, s3eCallback fn);
+# 314 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+typedef enum s3ePointerError
+{
+    S3E_POINTER_ERR_NONE = 0,
+    S3E_POINTER_ERR_PARAM = 1,
+    S3E_POINTER_ERR_TOO_MANY = 2,
+    S3E_POINTER_ERR_ALREADY_REG = 3,
+    S3E_POINTER_ERR_NOT_FOUND = 4,
+    S3E_POINTER_ERR_UNAVAIL = 5
+} s3ePointerError;
+
+
+
+
+
+
+
+extern "C" s3ePointerError s3ePointerGetError();
+
+
+
+
+
+
+
+extern "C" const char* s3ePointerGetErrorString();
+
+
+
+
+
+
+typedef enum s3ePointerState
+{
+    S3E_POINTER_STATE_UP = 0,
+    S3E_POINTER_STATE_DOWN = 1,
+    S3E_POINTER_STATE_PRESSED = 2,
+    S3E_POINTER_STATE_RELEASED = 4,
+    S3E_POINTER_STATE_UNKNOWN
+} s3ePointerState;
+
+
+
+
+
+
+typedef enum s3ePointerButton
+{
+
+    S3E_POINTER_BUTTON_SELECT = 0,
+
+
+    S3E_POINTER_BUTTON_LEFTMOUSE = 0,
+
+
+    S3E_POINTER_BUTTON_RIGHTMOUSE = 1,
+
+
+    S3E_POINTER_BUTTON_MIDDLEMOUSE = 2,
+
+
+    S3E_POINTER_BUTTON_MOUSEWHEELUP = 3,
+
+
+    S3E_POINTER_BUTTON_MOUSEWHEELDOWN = 4,
+
+
+    S3E_POINTER_BUTTON_MAX
+} s3ePointerButton;
+
+
+
+
+typedef struct s3ePointerEvent
+{
+
+    s3ePointerButton m_Button;
+
+    uint32 m_Pressed;
+
+    int32 m_x;
+
+    int32 m_y;
+} s3ePointerEvent;
+
+
+
+
+typedef struct s3ePointerMotionEvent
+{
+
+    int32 m_x;
+
+    int32 m_y;
+} s3ePointerMotionEvent;
+
+
+
+
+typedef struct s3ePointerTouchEvent
+{
+
+
+
+
+
+    uint32 m_TouchID;
+
+    uint32 m_Pressed;
+
+    int32 m_x;
+
+    int32 m_y;
+} s3ePointerTouchEvent;
+
+
+
+
+typedef struct s3ePointerTouchMotionEvent
+{
+
+
+
+
+
+    uint32 m_TouchID;
+
+    int32 m_x;
+
+    int32 m_y;
+} s3ePointerTouchMotionEvent;
+# 452 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+typedef struct s3ePointerWheelChangedEvent
+{
+
+    int32 m_WheelDelta;
+} s3ePointerWheelChangedEvent;
+
+
+
+
+
+
+extern "C" s3ePointerState s3ePointerGetState(s3ePointerButton button);
+
+
+
+
+
+
+extern "C" int32 s3ePointerGetX();
+
+
+
+
+
+
+extern "C" int32 s3ePointerGetY();
+# 488 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" s3ePointerState s3ePointerGetTouchState(uint32 touchID);
+# 500 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" int32 s3ePointerGetTouchX(uint32 touchID);
+# 512 "c:/marmalade/7.4/s3e/h/s3ePointer.h"
+extern "C" int32 s3ePointerGetTouchY(uint32 touchID);
+
+
+
+
+
+
+
+extern "C" s3eResult s3ePointerUpdate();
+# 17 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/Input.h" 2
+# 43 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/Input.h"
+class Input
+{
+public:
+    int m_X, m_Y;
+    bool m_Touched;
+    bool m_PrevTouched;
+
+public:
+    Input();
+
+
+
+
+
+
+    void Update();
+
+
+
+
+
+    void Reset();
+
+
+    static void TouchButtonCB(s3ePointerEvent* event);
+    static void TouchMotionCB(s3ePointerMotionEvent* event);
+    static void MultiTouchButtonCB(s3ePointerTouchEvent* event);
+    static void MultiTouchMotionCB(s3ePointerTouchMotionEvent* event);
+};
+
+extern Input* g_pInput;
+# 14 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp" 2
+
+Input* g_pInput = 0;
+# 24 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+void Input::TouchButtonCB(s3ePointerEvent* event)
+{
+    g_pInput->m_PrevTouched = g_pInput->m_Touched;
+    g_pInput->m_Touched = event->m_Pressed != 0;
+    g_pInput->m_X = event->m_x;
+    g_pInput->m_Y = event->m_y;
+}
+# 39 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+void Input::TouchMotionCB(s3ePointerMotionEvent* event)
+{
+    g_pInput->m_X = event->m_x;
+    g_pInput->m_Y = event->m_y;
+}
+# 52 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+void Input::MultiTouchButtonCB(s3ePointerTouchEvent* event)
+{
+    g_pInput->m_PrevTouched = g_pInput->m_Touched;
+    g_pInput->m_Touched = event->m_Pressed != 0;
+    g_pInput->m_X = event->m_x;
+    g_pInput->m_Y = event->m_y;
+}
+# 67 "c:/Users/Ben/Desktop/FYP/FinalYearProject/source/input.cpp"
+void Input::MultiTouchMotionCB(s3ePointerTouchMotionEvent* event)
+{
+    g_pInput->m_X = event->m_x;
+    g_pInput->m_Y = event->m_y;
+}
+
+Input::Input() : m_Touched(false), m_PrevTouched(false)
+{
+
+    if (s3ePointerGetInt(S3E_POINTER_MULTI_TOUCH_AVAILABLE) != 0)
+    {
+        s3ePointerRegister(S3E_POINTER_TOUCH_EVENT, (s3eCallback)MultiTouchButtonCB, 0);
+        s3ePointerRegister(S3E_POINTER_TOUCH_MOTION_EVENT, (s3eCallback)MultiTouchMotionCB, 0);
+    }
+    else
+    {
+        s3ePointerRegister(S3E_POINTER_BUTTON_EVENT, (s3eCallback)TouchButtonCB, 0);
+        s3ePointerRegister(S3E_POINTER_MOTION_EVENT, (s3eCallback)TouchMotionCB, 0);
+    }
+}
+
+void Input::Update()
+{
+    s3ePointerUpdate();
+}
+
+void Input::Reset()
+{
+    m_PrevTouched = false;
+    m_Touched = false;
+}

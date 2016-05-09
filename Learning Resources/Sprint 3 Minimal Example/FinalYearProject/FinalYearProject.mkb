@@ -1,0 +1,30 @@
+#!/usr/bin/env mkb
+files
+{
+	[source]
+	(source)
+    FinalYearProject.cpp
+	Game.h
+	Game.cpp
+	resources.h
+	resources.cpp
+	scene.h
+	scene.cpp
+	audio.h
+	audio.cpp
+}
+
+subprojects
+{
+    iwutil
+    iw2dscenegraphcore
+    iw2dscenegraph
+    iwgx
+	SoundEngine
+    iwresmanager
+    iwtween
+}
+
+deployment
+{
+}

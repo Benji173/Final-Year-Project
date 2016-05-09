@@ -1,0 +1,45 @@
+﻿Build started 08/12/2014 10:36:13.
+     1>Project "c:\Users\lab422\Desktop\FYP\FinalYearProject\build_finalyearproject_vc12\FinalYearProject_vc12.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Marmalade\7.4\s3e\makefile_builder\mkb.py c:/Users/lab422/Desktop/FYP/FinalYearProject/FinalYearProject.mkb --default-buildenv=vc12 --msvc-project
+         Building project: c:/Users/lab422/Desktop/FYP/FinalYearProject/FinalYearProject.mkb
+         done
+       ClCompile:
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/iw2dscenegraphcore/h /Ic:/marmalade/7.4/modules/iw2dscenegraph/h /Ic:/marmalade/7.4/modules/iw2d/h /Ic:/marmalade/7.4/modules/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwresmanager/h /Ic:/marmalade/7.4/extensions/pvrtextool/h /Ic:/marmalade/7.4/modules/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /Ic:/marmalade/7.4/modules/iwtween/h /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /Ic:/marmalade/7.4/s3e/h/ext_legacy /Ic:/marmalade/7.4/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug_FinalYearProject_vc12_arm\\" /Fd".\Debug_FinalYearProject_vc12_arm\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\lab422\Desktop\FYP\FinalYearProject\build_finalyearproject_vc12\temp_defines_debug.h" ..\source\Bullet.cpp ..\source\BulletManager.cpp ..\source\Collisions.cpp ..\source\FinalYearProject.cpp ..\source\Game.cpp ..\source\input.cpp ..\source\Map.cpp ..\source\Net.cpp ..\source\Platform.cpp ..\source\Player.cpp ..\source\resources.cpp ..\source\scene.cpp ..\source\Target.cpp ..\source\Weapon.cpp c:\marmalade\7.4\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp c:\marmalade\7.4\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp c:\marmalade\7.4\modules\iwtween\source\IwTween.cpp c:\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp
+         Bullet.cpp
+         BulletManager.cpp
+         Collisions.cpp
+         FinalYearProject.cpp
+         Game.cpp
+         input.cpp
+         Map.cpp
+         Net.cpp
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\net.h(3): fatal error C1083: Cannot open include file: 'winsock2.h': No such file or directory (..\source\Net.cpp)
+         Platform.cpp
+         Player.cpp
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\finalyearproject.cpp(7): fatal error C1083: Cannot open include file: 'winsock2.h': No such file or directory
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\bulletmanager.cpp(12): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+         resources.cpp
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\game.cpp(5): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\game.cpp(17): warning C4244: '=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\game.cpp(18): warning C4244: '=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\map.cpp(49): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\map.cpp(53): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\map.cpp(57): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\platform.cpp(4): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+         scene.cpp
+         Target.cpp
+         Weapon.cpp
+         Iw2DSceneGraph.cpp
+     1>c:\users\lab422\desktop\fyp\finalyearproject\source\map.cpp(109): warning C4715: 'Map::playerCollision' : not all control paths return a value
+         Iw2DSceneGraphCore.cpp
+         IwTween.cpp
+         PVRTexTool_interface.cpp
+     1>Done Building Project "c:\Users\lab422\Desktop\FYP\FinalYearProject\build_finalyearproject_vc12\FinalYearProject_vc12.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.65

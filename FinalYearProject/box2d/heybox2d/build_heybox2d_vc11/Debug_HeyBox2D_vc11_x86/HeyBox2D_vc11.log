@@ -1,0 +1,71 @@
+﻿Build started 17/03/2015 18:28:24.
+     1>Project "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\HeyBox2D_vc11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/legacy/iw2d/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/legacy/iwresmanager/h /Ic:/marmalade/7.4/modules/legacy/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/legacy/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /Ic:/marmalade/7.4/examples/examplescore /Ic:/users/ben/desktop/fyp/finalyearproject/box2d /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /I. /ZI /nologo /W3 /WX /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_HeyBox2D_vc11_x86\\" /Fd"Debug_HeyBox2D_vc11_x86\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\temp_defines_debug.h" ..\HeyBox2D.cpp
+         HeyBox2D.cpp
+       Link:
+         C:\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_HeyBox2D_vc11_x86\HeyBox2D.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.4/modules/legacy/iw2d/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/legacy/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/legacy/iwgx/atitools /LIBPATH:c:/marmalade/7.4/modules/legacy/iwgx/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/legacy/iwgxfont/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/tiniconv/lib/x86 /LIBPATH:c:/marmalade/7.4/s3e/lib/x86 vc6_compat.lib iw2d_d.lib iwgeom_d.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iwresmanager_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgxfont_d.lib tiniconv_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_HeyBox2D_vc11_x86\HeyBox2D.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_HeyBox2D_vc11_x86\HeyBox2D.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /DLL Debug_HeyBox2D_vc11_x86\ExamplesMain.obj
+         Debug_HeyBox2D_vc11_x86\HeyBox2D.obj
+         Debug_HeyBox2D_vc11_x86\b2BlockAllocator.obj
+         Debug_HeyBox2D_vc11_x86\b2Body.obj
+         Debug_HeyBox2D_vc11_x86\b2BroadPhase.obj
+         Debug_HeyBox2D_vc11_x86\b2ChainAndCircleContact.obj
+         Debug_HeyBox2D_vc11_x86\b2ChainAndPolygonContact.obj
+         Debug_HeyBox2D_vc11_x86\b2ChainShape.obj
+         Debug_HeyBox2D_vc11_x86\b2CircleContact.obj
+         Debug_HeyBox2D_vc11_x86\b2CircleShape.obj
+         Debug_HeyBox2D_vc11_x86\b2CollideCircle.obj
+         Debug_HeyBox2D_vc11_x86\b2CollideEdge.obj
+         Debug_HeyBox2D_vc11_x86\b2CollidePolygon.obj
+         Debug_HeyBox2D_vc11_x86\b2Collision.obj
+         Debug_HeyBox2D_vc11_x86\b2Contact.obj
+         Debug_HeyBox2D_vc11_x86\b2ContactManager.obj
+         Debug_HeyBox2D_vc11_x86\b2ContactSolver.obj
+         Debug_HeyBox2D_vc11_x86\b2Distance.obj
+         Debug_HeyBox2D_vc11_x86\b2DistanceJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2Draw.obj
+         Debug_HeyBox2D_vc11_x86\b2DynamicTree.obj
+         Debug_HeyBox2D_vc11_x86\b2EdgeAndCircleContact.obj
+         Debug_HeyBox2D_vc11_x86\b2EdgeAndPolygonContact.obj
+         Debug_HeyBox2D_vc11_x86\b2EdgeShape.obj
+         Debug_HeyBox2D_vc11_x86\b2Fixture.obj
+         Debug_HeyBox2D_vc11_x86\b2FrictionJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2GearJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2Island.obj
+         Debug_HeyBox2D_vc11_x86\b2Joint.obj
+         Debug_HeyBox2D_vc11_x86\b2Math.obj
+         Debug_HeyBox2D_vc11_x86\b2MotorJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2MouseJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2PolygonAndCircleContact.obj
+         Debug_HeyBox2D_vc11_x86\b2PolygonContact.obj
+         Debug_HeyBox2D_vc11_x86\b2PolygonShape.obj
+         Debug_HeyBox2D_vc11_x86\b2PrismaticJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2PulleyJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2RevoluteJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2Rope.obj
+         Debug_HeyBox2D_vc11_x86\b2RopeJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2Settings.obj
+         Debug_HeyBox2D_vc11_x86\b2StackAllocator.obj
+         Debug_HeyBox2D_vc11_x86\b2TimeOfImpact.obj
+         Debug_HeyBox2D_vc11_x86\b2Timer.obj
+         Debug_HeyBox2D_vc11_x86\b2WeldJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2WheelJoint.obj
+         Debug_HeyBox2D_vc11_x86\b2World.obj
+         Debug_HeyBox2D_vc11_x86\b2WorldCallbacks.obj
+         HeyBox2D_vc11.vcxproj -> c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86
+       PostBuildEvent:
+         echo C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86"
+         chdir /d "c:\marmalade\7.4\s3e\tools"
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86"
+         echo "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86" 
+         chdir /d "c:\marmalade\7.4\s3e\bin"
+         "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86" 
+         
+         :VCEnd
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86"
+         "s3e_plink" -l "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\Debug_HeyBox2D_vc11_x86\HeyBox2D.s86" 
+     1>Done Building Project "c:\Users\Ben\Desktop\FYP\FinalYearProject\box2d\heybox2d\build_heybox2d_vc11\HeyBox2D_vc11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69
